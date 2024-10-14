@@ -1,0 +1,50 @@
+.power {
+	display: inline-block;
+	font-size: 7px;
+	top: -0.8em;
+	border-radius: 1em;
+	background: #fff;
+	width: 0.4em;
+	height: 1.2em;
+	position: relative;
+}
+
+.power::before {
+	right: -1.2em;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	border-top: 0.4em solid rgba(44, 44, 44, 0);
+	top: 0.2em;
+	position: absolute;
+	content: '';
+	height: 2em;
+	width: 2em;
+	border-radius: 100%;
+	border-right: 0.4em solid #fff;
+	border-bottom: 0.4em solid rgba(44, 44, 44, 0);
+	border-left: 0.4em solid rgba(44, 44, 44, 0);
+}
+
+.power::after {
+	right: -1.2em;
+
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+	border-top: 0.4em solid rgba(44, 44, 44, 0);
+	top: 0.2em;
+	position: absolute;
+	content: '';
+	height: 2em;
+	width: 2em;
+	border-radius: 100%;
+	border-right: 0.4em solid #fff;
+	border-bottom: 0.4em solid #fff;
+	border-left: 0.4em solid #fff;
+}
